@@ -6,32 +6,32 @@ export default function Skills() {
     {
       name: "ReactJS",
       level: 95,
-      color: "blue",
+      color: "grey",
     },
     {
       name: "AWS",
       level: 95,
-      color: "orange",
+      color: "darkblue",
     },
     {
       name: "NodeJS",
       level: 95,
-      color: "red",
+      color: "black",
     },
     {
       name: "NextJS",
       level: 90,
-      color: "green",
+      color: "grey",
     },
     {
       name: "GraphQL",
       level: 95,
-      color: "orange",
+      color: "darkblue",
     },
     {
       name: "PostgresQL",
       level: 95,
-      color: "blue",
+      color: "black",
     },
     {
       name: "React Native",

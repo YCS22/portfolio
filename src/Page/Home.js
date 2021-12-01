@@ -13,14 +13,7 @@ export default function Home() {
         </div>
         <div className=" text-xl font-bold">
           <Typical
-            steps={[
-              "Hello!",
-              1000,
-              "YİĞİTCAN SEZEK",
-              500,
-              "FULL STACK DEVELOPER",
-              1000,
-            ]}
+            steps={["YİĞİTCAN SEZEK", 500, "FULL STACK DEVELOPER", 1000]}
             loop={Infinity}
             wrapper="p"
             className="text-primary-electromagnetic"

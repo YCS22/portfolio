@@ -20,6 +20,7 @@ module.exports = {
         black: "#000000",
         aurora: "#6a89cc",
         softblue: "#95afc0",
+        bluebell: "#341f97",
       },
     },
 
