@@ -22,8 +22,8 @@ export default function Navbar() {
           <MenuItem name="Contact" />
         </Link>
 
-        <div className="flex absolute right-12 top-3 bg-primary-white rounded-3xl h-4 w-4 sm:h-6 sm:w-6"></div>
-        <div className="flex absolute right-5 top-3 bg-primary-white rounded-3xl h-4 w-4 sm:h-6 sm:w-6"></div>
+        {/*<div className="flex absolute right-12 top-3 bg-primary-white rounded-3xl h-4 w-4 sm:h-6 sm:w-6"></div>
+        <div className="flex absolute right-5 top-3 bg-primary-white rounded-3xl h-4 w-4 sm:h-6 sm:w-6"></div>*/}
       </div>
     </div>
   );

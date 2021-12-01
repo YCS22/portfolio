@@ -43,9 +43,9 @@ export default function Skills() {
   return (
     <div className="flex flex-col bg-primary-whiteblue   justify-center items-center h-screen ">
       <p className="text-2xl font-bold mt-20  sm:mt-0 text-primary-asbestos animate-bounce">
-        SKİLLS
+        SKILLS
       </p>
-      <div className="w-3/4 p-2">
+      <div className="w-3/4 p-2 ">
         <SkillBars skills={skillsData} />
       </div>
     </div>

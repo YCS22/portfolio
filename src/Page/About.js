@@ -36,7 +36,7 @@ export default function About() {
             <div className="flex justify-center items-center space-x-1">
               <UilAt className="text-primary-white hover:bg-primary-black rounded-full duration-500 p-1" />
               <label className="text-sm sm:text-lg text-primary-white">
-                yigitcansezekk@hotmail.com
+                yigitcansezek@gmail.com
               </label>
             </div>
           </div>
