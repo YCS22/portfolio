@@ -1,9 +1,9 @@
-import React from "react";
-import photo from "../img/yigit.png";
-import stack from "../img/stack.png";
-import pdf from "../img/yigitcansezekresume.pdf";
-import medium from "../img/medium.png";
-import Typical from "react-typical";
+import React from 'react';
+import photo from '../img/yigit.png';
+import stack from '../img/stack.png';
+import pdf from '../img/yigitcansezekresume.pdf';
+import medium from '../img/medium.png';
+import Typical from 'react-typical';
 export default function Home() {
   return (
     <div className="flex bg-primary-wisteria justify-center  h-screen ">
@@ -13,7 +13,7 @@ export default function Home() {
         </div>
         <div className=" text-xl font-bold">
           <Typical
-            steps={["YİĞİTCAN SEZEK", 500, "FULL STACK DEVELOPER", 1000]}
+            steps={['YİĞİTCAN SEZEK', 500, 'FULL STACK DEVELOPER', 1000]}
             loop={Infinity}
             wrapper="p"
             className="text-primary-electromagnetic"
@@ -23,7 +23,7 @@ export default function Home() {
         <div className="flex items-center justify-center">
           <a
             className="text-xl text-gray-800 hover:bg-primary-black p-2  rounded-full hover:text-primary-white duration-300"
-            href={"https://github.com/YCS22"}
+            href={'https://github.com/YCS22'}
           >
             <svg
               stroke="currentColor"
@@ -55,15 +55,14 @@ export default function Home() {
             <img src={medium} className="rounded-full  v" alt="yigit" />
           </a>
         </div>
-        <div className="rounded-md  animate-bounce transition duration-700 ease-in-out bg-primary-hint hover:bg-primary-fueltown  transform hover:-translate-y-1 hover:scale-110 sm:w-50 p-2 text-center cursor-pointer">
-          <a
-            className=" text-md sm:text-xl text-primary-white cursor-pointer"
-            download
-            href={pdf}
-          >
-            DOWNLOAD CV
-          </a>
-        </div>
+
+        <a
+          className=" rounded-md  animate-bounce transition duration-700 ease-in-out bg-primary-hint hover:bg-primary-fueltown  transform hover:-translate-y-1 hover:scale-110 sm:w-50 p-2 text-center  flex text-md sm:text-xl text-primary-white cursor-pointer "
+          download
+          href={pdf}
+        >
+          DOWNLOAD CV
+        </a>
       </div>
     </div>
   );

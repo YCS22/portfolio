@@ -1,11 +1,12 @@
-import Navbar from "./cards/Navbar";
-import Home from "./Page/Home";
-import Contact from "./Page/Contact";
-import Skills from "./Page/Skills";
-import About from "./Page/About";
-import Project from "./Page/Project";
+import Navbar from './cards/Navbar';
+import Home from './Page/Home';
+import Contact from './Page/Contact';
+import Skills from './Page/Skills';
+import About from './Page/About';
+import Project from './Page/Project';
 
 function App() {
+  document.title = 'Yigitcan Sezek';
   return (
     <div className="overflow-y-hidden">
       <Navbar />
