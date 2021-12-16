@@ -1,6 +1,6 @@
-import React from "react";
-import MenuItem from "./MenuItem";
-import { Link } from "react-scroll";
+import React from 'react';
+import MenuItem from './MenuItem';
+import { Link } from 'react-scroll';
 export default function Navbar() {
   return (
     <div className="flex bg-primary-electromagnetic  fixed justify-center w-full z-20">
@@ -8,17 +8,17 @@ export default function Navbar() {
         <Link to="page1" smooth={true}>
           <MenuItem name="Home" />
         </Link>
-        <Link to="page2" smooth={true}>
+        <Link activeClass="active" to="page2" smooth={true}>
           <MenuItem name="About" />
         </Link>
 
-        <Link to="page3" smooth={true}>
+        <Link activeClass="active" to="page3" smooth={true}>
           <MenuItem name="Skills" />
         </Link>
-        <Link to="page4" smooth={true}>
+        <Link activeClass="active" to="page4" smooth={true}>
           <MenuItem name="Projects" />
         </Link>
-        <Link to="page5" smooth={true}>
+        <Link activeClass="active" to="page5" smooth={true}>
           <MenuItem name="Contact" />
         </Link>
 

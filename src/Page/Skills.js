@@ -1,48 +1,48 @@
-import React from "react";
-import { SkillBars } from "react-skills";
+import React from 'react';
+import { SkillBars } from 'react-skills';
 
 export default function Skills() {
   const skillsData = [
     {
-      name: "ReactJS",
+      name: 'ReactJS',
       level: 95,
-      color: "grey",
+      color: 'grey',
     },
     {
-      name: "AWS",
+      name: 'AWS',
       level: 95,
-      color: "darkblue",
+      color: 'darkblue',
     },
     {
-      name: "NodeJS",
+      name: 'NodeJS',
       level: 95,
-      color: "black",
+      color: 'black',
     },
     {
-      name: "NextJS",
+      name: 'NextJS',
       level: 90,
-      color: "grey",
+      color: 'grey',
     },
     {
-      name: "GraphQL",
+      name: 'GraphQL',
       level: 95,
-      color: "darkblue",
+      color: 'darkblue',
     },
     {
-      name: "PostgresQL",
+      name: 'PostgresQL',
       level: 95,
-      color: "black",
+      color: 'black',
     },
     {
-      name: "React Native",
+      name: 'React Native',
       level: 85,
-      color: "grey",
+      color: 'grey',
     },
   ];
 
   return (
     <div className="flex flex-col bg-primary-whiteblue   justify-center items-center h-screen ">
-      <p className="text-2xl font-bold mt-20  sm:mt-0 text-primary-asbestos animate-bounce">
+      <p className="text-2xl font-bold  text-primary-asbestos animate-bounce">
         SKILLS
       </p>
       <div className="w-3/4 p-2 ">

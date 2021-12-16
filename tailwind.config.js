@@ -7,29 +7,31 @@ module.exports = {
         grey: '#D2DAE2',
         blue: '#2C2C54',
         white: '#FFFFFF',
-        whiteblue: '#F2F4F6',
-        wisteria: '#F2F4F6',
+        whiteblue: '#EEEEEE',
+        wisteria: '#EEEEEE',
         midnigthblue: '#2c3e50',
-        sunflower: '#1EE3CF',
-        turquoise: '#6B48FF',
+        sunflower: '#00ADB5',
+        turquoise: '#00ADB5',
         pomegranate: '#c0392b',
         asbestos: '#3B3B98',
-        electromagnetic: '#0D3F67',
-        hint: '#353b48',
+        electromagnetic: '#222831',
+        hint: '#393E46',
         fueltown: '#576574',
         black: '#000000',
         aurora: '#6a89cc',
-        softblue: '#1EE3CF',
+        softblue: '#EEEEEE',
         bluebell: '#341f97',
       },
     },
 
     fontSize: {
+      xs: '.700rem',
       sm: '.875rem',
       md: '1rem',
       xl: '1.25rem',
       '2xl': '1.75rem',
     },
+
     extend: {
       height: {
         xs: '6px',
@@ -55,12 +57,18 @@ module.exports = {
       rounded: {
         '5xl': '100px',
       },
+      spacing: {
+        '50px': '100px',
+        '200px': '100px',
+        '70px': '70px',
+      },
     },
   },
   variants: {
     extend: {
       screens: {
         xs: '280px',
+
         sm: '640px',
         md: '780px',
         lg: '1024px',

@@ -14,18 +14,18 @@ function App() {
       <section id="page1">
         <Home />
       </section>
-      <section id="page2">
-        <About />
-      </section>
-      <section id="page3">
-        <Skills />
-      </section>
-      <section id="page4">
-        <Project />
-      </section>
-      <section id="page5">
-        <Contact />
-      </section>
+      <section id="page2" className="h-70px bg-primary-sunflower"></section>
+
+      <About />
+
+      <section id="page3" className="h-200px bg-primary-whiteblue "></section>
+      <Skills />
+
+      <section id="page4" className="h-200px bg-primary-turquoise "></section>
+      <Project />
+
+      <section id="page5" className="h-200px bg-primary-softblue "></section>
+      <Contact />
     </div>
   );
 }

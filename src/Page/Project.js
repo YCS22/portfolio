@@ -3,7 +3,7 @@ import ProjectInstance from '../cards/Projects';
 
 export default function Project() {
   return (
-    <div className="flex flex-col sm:flex-row bg-primary-turquoise justify-around items-center   h-screen">
+    <div className="flex flex-col sm:flex-row bg-primary-turquoise justify-center space-y-2 items-center   h-screen">
       <ProjectInstance
         name={'Location App'}
         link="https://github.com/YCS22/javamobilkonumuygulama"

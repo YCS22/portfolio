@@ -1,13 +1,13 @@
-import React from "react";
-import Typical from "react-typical";
-import { UilAt, UilHouseUser, UilPhone } from "@iconscout/react-unicons";
+import React from 'react';
+import Typical from 'react-typical';
+import { UilAt, UilHouseUser, UilPhone } from '@iconscout/react-unicons';
 export default function About() {
   return (
     <div className="flex bg-primary-sunflower  h-screen items-center ">
-      <div className="flex  justify-around items-start space-y-5   w-full  ">
+      <div className="flex  justify-around items-start    w-full  ">
         <div className="flex flex-col text-xl   font-bold w-full p-5 sm:w-1/2">
           <Typical
-            steps={["Hi!", 500, "I'am Yiğitcan", 1000]}
+            steps={['Hi!', 500, "I'am Yiğitcan", 1000]}
             loop={Infinity}
             wrapper="p"
             className="text-2xl text-primary-aurora"
