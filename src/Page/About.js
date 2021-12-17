@@ -10,7 +10,7 @@ export default function About() {
             steps={['Hi!', 500, "I'am Yiğitcan", 1000]}
             loop={Infinity}
             wrapper="p"
-            className="text-2xl text-primary-aurora"
+            className="text-2xl text-primary-hint"
           />
           <br />
           <label className="text-sm sm:text-xl text-primary-white">
@@ -22,19 +22,19 @@ export default function About() {
 
           <div className="flex flex-col items-start lg:flex-row justify-between">
             <div className="flex justify-center items-center space-x-1">
-              <UilPhone className="text-primary-white hover:bg-primary-black rounded-full duration-500 p-1" />
+              <UilPhone className="text-primary-white bg-primary-black rounded-full duration-500 p-1" />
               <label className="text-sm sm:text-lg text-primary-white">
                 +90 535 915 18 72
               </label>
             </div>
             <div className="flex justify-center items-center space-x-1">
-              <UilHouseUser className="text-primary-white hover:bg-primary-black rounded-full duration-500 p-1" />
+              <UilHouseUser className="text-primary-white bg-primary-black rounded-full duration-500 p-1" />
               <label className="text-sm sm:text-lg text-primary-white">
                 Istanbul
               </label>
             </div>
             <div className="flex justify-center items-center space-x-1">
-              <UilAt className="text-primary-white hover:bg-primary-black rounded-full duration-500 p-1" />
+              <UilAt className="text-primary-white bg-primary-black rounded-full duration-500 p-1" />
               <label className="text-sm sm:text-lg text-primary-white">
                 yigitcansezek@gmail.com
               </label>

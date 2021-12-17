@@ -8,15 +8,19 @@ export default function Home() {
   return (
     <div className="flex bg-primary-wisteria justify-center  h-screen ">
       <div className="flex flex-col  justify-center items-center space-y-5  w-full  mt-10">
-        <div className="flex rounded-full  bg-primary-fueltown h-40 w-40 justify-center items-center">
-          <img src={photo} className="rounded-full " alt="yigit" />
+        <div className="flex rounded-full  border-primary-sunflower border-2 bg-primary-fueltown h-40 w-40 justify-center items-center">
+          <img
+            src={photo}
+            className=" rounded-full border-primary-sunflower border-2 "
+            alt="yigit"
+          />
         </div>
         <div className=" text-xl font-bold">
           <Typical
             steps={['YİĞİTCAN SEZEK', 500, 'FULL STACK DEVELOPER', 1000]}
             loop={Infinity}
             wrapper="p"
-            className="text-primary-electromagnetic"
+            className="text-primary-sunflower"
           />
         </div>
 
@@ -57,7 +61,7 @@ export default function Home() {
         </div>
 
         <a
-          className=" rounded-md  animate-bounce transition duration-700 ease-in-out bg-primary-hint hover:bg-primary-fueltown  transform hover:-translate-y-1 hover:scale-110 sm:w-50 p-2 text-center  flex text-md sm:text-xl text-primary-white cursor-pointer "
+          className=" rounded-md  animate-bounce transition duration-700 ease-in-out bg-primary-hint hover:bg-primary-sunflower  transform hover:-translate-y-1 hover:scale-110 sm:w-50 p-2 text-center  flex text-md sm:text-xl text-primary-white cursor-pointer "
           download
           href={pdf}
         >

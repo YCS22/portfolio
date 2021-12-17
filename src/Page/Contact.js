@@ -52,7 +52,7 @@ export default function Contact() {
 
   return (
     <div className="flex flex-col bg-primary-softblue justify-center items-center    h-screen">
-      <p className="text-2xl font-bold   sm:mt-0 text-primary-asbestos animate-bounce">
+      <p className="text-2xl font-bold   sm:mt-0 text-primary-sunflower animate-bounce">
         CONTACT ME
       </p>
 
@@ -80,7 +80,7 @@ export default function Contact() {
 
         <div class="mb-4">
           <label
-            class="block text-gray-700 text-sm font-bold mb-2"
+            class="block text-primary-sunflower text-sm font-bold mb-2"
             for="username"
           >
             Your Message
@@ -97,7 +97,7 @@ export default function Contact() {
 
         {!loading ? (
           <div
-            className="rounded-md transform hover:-translate-y-1 hover:scale-110 duration-500  bg-primary-hint hover:bg-primary-fueltown self-center  w-full sm:w-1/3 p-2 text-center cursor-pointer"
+            className="rounded-md transform hover:-translate-y-1 hover:scale-110 duration-500  bg-primary-sunflower hover:bg-primary-fueltown self-center  w-full sm:w-1/3 p-2 text-center cursor-pointer"
             onClick={ContactHandler}
           >
             <button className=" text-md sm:text-xl text-primary-white cursor-pointer">

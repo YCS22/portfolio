@@ -6,12 +6,12 @@ export default function Skills() {
     {
       name: 'ReactJS',
       level: 95,
-      color: 'grey',
+      color: '#393E46',
     },
     {
       name: 'AWS',
       level: 95,
-      color: 'darkblue',
+      color: '#00ADB5',
     },
     {
       name: 'NodeJS',
@@ -21,12 +21,12 @@ export default function Skills() {
     {
       name: 'NextJS',
       level: 90,
-      color: 'grey',
+      color: '#393E46',
     },
     {
       name: 'GraphQL',
       level: 95,
-      color: 'darkblue',
+      color: '#00ADB5',
     },
     {
       name: 'PostgresQL',
@@ -36,13 +36,13 @@ export default function Skills() {
     {
       name: 'React Native',
       level: 85,
-      color: 'grey',
+      color: '#393E46',
     },
   ];
 
   return (
     <div className="flex flex-col bg-primary-whiteblue   justify-center items-center h-screen ">
-      <p className="text-2xl font-bold  text-primary-asbestos animate-bounce">
+      <p className="text-2xl font-bold  text-primary-sunflower animate-bounce">
         SKILLS
       </p>
       <div className="w-3/4 p-2 ">
